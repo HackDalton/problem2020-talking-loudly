@@ -10,4 +10,4 @@ FROM alpine
 
 COPY --from=build /go/bin/talking-loudly ./
 
-CMD ["./hello-netcat"]
+CMD ["./talking-loudly"]
